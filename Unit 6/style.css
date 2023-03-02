@@ -1,0 +1,36 @@
+body{
+  background-image: url(https://media.tenor.com/hVXVO05BaRsAAAAC/geometric-abstract.gif);
+  background-position:center center ;
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+}
+
+main {
+  color: white;
+  background-color: darkgray
+}
+
+#wrapper{
+  width:60%
+  margin: auto;
+  margin-top: 30px;
+}
+
+li{
+  list-style-image: url(https://i1.wp.com/www.thewrap.com/wp-content/themes/thewrap-canvas/imgs/thewrap-gravatar.png?ssl=1);
+}
+
+#borderimg{
+  border-image-slice: 13 13 13 13;
+  border-image-width: 13px 13px 13px 13px;
+  border-image-outset: 13px 13px 13px 13px;
+  border-image-repeat: repeat repeat;
+  border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-5.png");
+  border-style: solid;
+}
+
+
+img{
+  margin-top: 25px;
+  height: 300px;
+}
